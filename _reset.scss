@@ -1,0 +1,66 @@
+body,
+p,
+span {
+    font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.grey-bg{
+    background-color: #f9fafb;
+}
+ 
+
+/*Menu*/
+.main_header 
+{
+    max-width: 1200px;
+}
+
+// Button
+body .btn-primary
+{
+    width: 130px;
+    height: 40px;
+    background-color: #E83B3E !important;
+    font-size: .9rem;
+    border-color: #E83B3E !important;
+    position: relative;
+
+    z-index: 1;
+}
+body .btn-primary::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #000 ;
+    border-color:  #000 ;
+    transition: 0.4s;
+
+    z-index: -1;
+}
+body .btn-primary:hover:after
+{
+    width: 100%;
+}
+.active{
+    color: #E83B3E !important;
+}

@@ -1,0 +1,71 @@
+.silder_section{
+    background-image: url(https://i.ibb.co/2h6F4Ds/main-banner2.jpg);
+background-repeat: no-repeat;
+background-position: 57% 50%;
+background-size: cover;
+padding: 200px;
+    .silder-content{
+        margin-left: -29%;
+    }
+}
+.silder-content-wrap{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    h6{
+        color: #E83B3E;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 500;
+        padding-right: 23.9rem;
+    }
+    p{
+        font-size: 18px;
+        color: #606060;
+        font-weight: 400;
+        padding-right: 23.9rem;
+        padding-top: 0.5rem;
+    }
+    
+}
+.header-social{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -8rem;
+    margin-left: -13rem;
+    li{
+        list-style: none;
+        margin-left: 2rem;
+
+        span{
+            color: #111;
+            position: relative;
+            &::after{
+                content: "";
+                height: 6%;
+                width: 42%;
+                position: absolute;
+                background-color: #111;
+                top: 52%;
+                left: 71px;
+            }
+        }
+    }
+    a{
+        color: #111;
+    font-size: 1rem;
+    transition: all 0.4s;
+    margin-left: 1.5rem;
+    &:hover{
+        color: #E83B3E;
+        transform: translate(-50%,-50%) rotate(270deg);
+    
+    }
+    }
+
+}
+    

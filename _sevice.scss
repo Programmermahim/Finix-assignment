@@ -1,0 +1,196 @@
+.logo_section {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.client_logo {
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+}
+
+.about_img {
+    position: relative;
+}
+
+.about-img-text {
+    position: absolute;
+    bottom: -2px;
+    right: 55px;
+    background-image: url(https://i.ibb.co/16twt91/shape.png);
+    width: 34%;
+    height: 37%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+// .about-text {
+// }
+.finix-text {
+    padding: 0px 80px 0px 21px;
+    position: relative;
+
+    h5 {
+        color: #e73c3e;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    h2 {
+        font-weight: 400;
+    }
+
+    h6 {
+        font-size: 0.9em;
+        color: #606060;
+        font-weight: 300;
+        margin-top: 1.2rem;
+        line-height: 1.6;
+    }
+
+    h3 {
+        font-size: .91rem;
+        color: #606060;
+        font-weight: 300;
+        padding-top: 0.5rem;
+    }
+
+    ul {
+        list-style: none;
+        margin-top: 1.2em;
+    }
+
+    ul li {
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+    span {
+        font-size: 0.9rem;
+        margin-right: 0.8em;
+        font-weight: 300;
+        color: #e73c3e;
+
+    }
+}
+
+.paly-animation-btn {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    background: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 90px;
+    color: #e73c3e;
+    position: absolute;
+    bottom: 5%;
+    right: 38%;
+    border-radius: 50%;
+
+    &::before {
+        content: '';
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #e73c3e;
+        border-radius: 50%;
+        animation: paly-animation-btn  1.5s ease-in-out infinite;
+    }
+
+}
+
+@keyframes  paly-animation-btn {
+
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.5);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+
+}
+
+// .features-items {}
+
+.feature_icon {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+
+    &:hover {
+        transform: translateY(-15px);
+    }
+
+    &:hover .ft-icon i {
+        color: #fff;
+        background-color: #e73c3e;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: -69px;
+        left: 0px;
+        right: 0;
+        margin: auto;
+        width: 90%;
+        height: 42%;
+        background-color: #fdebeb;
+        border-radius: 50%;
+
+    }
+
+    .ft-icon {
+        position: relative;
+        z-index: 1;
+
+        i {
+            color: #e73c3e;
+            font-size: 1.8rem;
+            background-color: #ddd;
+            height: 3.5rem;
+            width: 3.5rem;
+            line-height: 3.5rem;
+            border-radius: 50%;
+
+        }
+
+
+    }
+
+    h3 {
+        font-weight: 800;
+        padding-top: 2rem;
+    }
+
+    p {
+        color: #606060;
+    }
+
+}
+
+.mtop-4 {
+    margin-top: -30px;
+}
