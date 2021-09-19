@@ -1,0 +1,125 @@
+// Apply Section 
+.apply_text {
+    margin-bottom: 50px;
+
+    h5 {
+        font-weight: 200;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 2.15rem;
+
+    }
+
+    h6 {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+.step-timeline {
+    ul {
+        list-style: none;
+        margin-top: 2.6rem;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 0px;
+            width: 1px;
+            height: calc(100% - 125px);
+            background: red;
+        }
+    }
+
+    li {
+        position: relative;
+        padding-left: 20px;
+        &::before {
+            content: attr(data-counter);
+            position: absolute;
+            top: 0;
+            left: -52px;
+            height: 40px;
+            width: 40px;
+            background: #fff;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid #E83B3E;
+            border-radius: 50%;
+            color: #E83B3E;
+            font-size: 23px;
+
+        }
+    }
+
+    strong {
+        font-size: 24px;
+        display: block;
+    }
+
+    p {
+
+        color: #606060;
+        line-height: 29px;
+        margin-top: 15px;
+    }
+}
+.calculation{
+    background-color: #fdebeb;
+    padding: 0  45px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.calculation-title {
+    h6{
+        color: #606060;
+        font-weight: 400;
+        margin-top: 2em;
+        
+    }
+    h2{
+        font-size: 36px;
+    }
+}
+.calculation-form{
+    .form-group{
+        margin-bottom: 25px;
+    }
+    label{
+        margin-bottom: 8px;
+    }
+    input{
+        padding: 12px;
+        border: none;
+        border-radius: 0 ;
+    }
+    select{
+        padding: 12px !important;
+        line-height: 12px;
+        height: 50px;
+        font-weight: normal !important;
+        border: none;
+        border-radius: 0 ;
+       option{
+        padding: 12px !important;
+        line-height: 12px;
+        height: 50px;
+        font-weight: normal !important;
+        border: none;
+        border-radius: 0 ;
+        &:hover{
+               background-color: #E83B3E !important ;
+            }
+       }
+    }
+    button{
+        line-height: 5px;
+    }
+}
+
+

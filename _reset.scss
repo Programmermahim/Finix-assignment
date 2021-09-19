@@ -28,10 +28,13 @@ img{
 /*Menu*/
 .main_header 
 {
-    max-width: 1200px;
+    max-width: 1470px;
 }
 
 // Button
+// body .btn-primary span{
+
+// }
 body .btn-primary
 {
     width: 130px;
@@ -40,8 +43,10 @@ body .btn-primary
     font-size: .9rem;
     border-color: #E83B3E !important;
     position: relative;
-
+    border: none;
     z-index: 1;
+    box-shadow: none !important;
+    cursor: pointer;
 }
 body .btn-primary::after
 {
@@ -53,8 +58,7 @@ body .btn-primary::after
     height: 100%;
     background-color: #000 ;
     border-color:  #000 ;
-    transition: 0.4s;
-
+    transition:.5s ;
     z-index: -1;
 }
 body .btn-primary:hover:after
