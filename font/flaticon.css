@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?32bd7cb1cabf411f544da27958adc8e0") format("truetype"), url("./flaticon.woff?32bd7cb1cabf411f544da27958adc8e0") format("woff"), url("./flaticon.woff2?32bd7cb1cabf411f544da27958adc8e0") format("woff2"), url("./flaticon.eot?32bd7cb1cabf411f544da27958adc8e0#iefix") format("embedded-opentype"), url("./flaticon.svg?32bd7cb1cabf411f544da27958adc8e0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-phone-call:before {
+  content: "";
+}
+
+.flaticon-guarantee:before {
+  content: "";
+}
+
+.flaticon-speed:before {
+  content: "";
+}
+
+.flaticon-reliability:before {
+  content: "";
+}
+
+.flaticon-user-experience:before {
+  content: "";
+}
+
+.flaticon-design-thinking:before {
+  content: "";
+}
+
+.flaticon-talent-search:before {
+  content: "";
+}
+
+.flaticon-key:before {
+  content: "";
+}
+
+.flaticon-scholarship:before {
+  content: "";
+}
+
+.flaticon-agriculture:before {
+  content: "";
+}
+
+.flaticon-personal:before {
+  content: "";
+}
+
+.flaticon-loan:before {
+  content: "";
+}
+
+.flaticon-loan-1:before {
+  content: "";
+}
+
+.flaticon-right-quote:before {
+  content: "";
+}
+
+.flaticon-creativity:before {
+  content: "";
+}
+
+.flaticon-idea:before {
+  content: "";
+}
+
+.flaticon-loan-2:before {
+  content: "";
+}
+
+.flaticon-facebook:before {
+  content: "";
+}
+
+.flaticon-instagram:before {
+  content: "";
+}
+
+.flaticon-youtube:before {
+  content: "";
+}
+
+.flaticon-linkedin:before {
+  content: "";
+}
+
+.flaticon-twitter:before {
+  content: "";
+}
+
+.flaticon-whatsapp:before {
+  content: "";
+}

@@ -1,0 +1,117 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?32bd7cb1cabf411f544da27958adc8e0") format("truetype"),
+url("./flaticon.woff?32bd7cb1cabf411f544da27958adc8e0") format("woff"),
+url("./flaticon.woff2?32bd7cb1cabf411f544da27958adc8e0") format("woff2"),
+url("./flaticon.eot?32bd7cb1cabf411f544da27958adc8e0#iefix") format("embedded-opentype"),
+url("./flaticon.svg?32bd7cb1cabf411f544da27958adc8e0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "phone-call": "\f101",
+    "guarantee": "\f102",
+    "speed": "\f103",
+    "reliability": "\f104",
+    "user-experience": "\f105",
+    "design-thinking": "\f106",
+    "talent-search": "\f107",
+    "key": "\f108",
+    "scholarship": "\f109",
+    "agriculture": "\f10a",
+    "personal": "\f10b",
+    "loan": "\f10c",
+    "loan-1": "\f10d",
+    "right-quote": "\f10e",
+    "creativity": "\f10f",
+    "idea": "\f110",
+    "loan-2": "\f111",
+    "facebook": "\f112",
+    "instagram": "\f113",
+    "youtube": "\f114",
+    "linkedin": "\f115",
+    "twitter": "\f116",
+    "whatsapp": "\f117",
+);
+
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-guarantee:before {
+    content: map-get($flaticon-map, "guarantee");
+}
+.flaticon-speed:before {
+    content: map-get($flaticon-map, "speed");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon-map, "reliability");
+}
+.flaticon-user-experience:before {
+    content: map-get($flaticon-map, "user-experience");
+}
+.flaticon-design-thinking:before {
+    content: map-get($flaticon-map, "design-thinking");
+}
+.flaticon-talent-search:before {
+    content: map-get($flaticon-map, "talent-search");
+}
+.flaticon-key:before {
+    content: map-get($flaticon-map, "key");
+}
+.flaticon-scholarship:before {
+    content: map-get($flaticon-map, "scholarship");
+}
+.flaticon-agriculture:before {
+    content: map-get($flaticon-map, "agriculture");
+}
+.flaticon-personal:before {
+    content: map-get($flaticon-map, "personal");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon-map, "loan");
+}
+.flaticon-loan-1:before {
+    content: map-get($flaticon-map, "loan-1");
+}
+.flaticon-right-quote:before {
+    content: map-get($flaticon-map, "right-quote");
+}
+.flaticon-creativity:before {
+    content: map-get($flaticon-map, "creativity");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon-map, "idea");
+}
+.flaticon-loan-2:before {
+    content: map-get($flaticon-map, "loan-2");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-whatsapp:before {
+    content: map-get($flaticon-map, "whatsapp");
+}

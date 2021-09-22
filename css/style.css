@@ -9,8 +9,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, p {
   font-family: 'Rubik', sans-serif;
+  color: #111;
 }
 
 * {
@@ -527,4 +528,215 @@ body .btn-primary:hover:after {
 
 .calculation-form button {
   line-height: 5px;
+}
+
+.call-action-bg {
+  background-color: #e73c3e;
+  border-radius: 5px;
+}
+
+.call-action-bg h2 {
+  font-size: 30px;
+  border-right: 1px solid #fff;
+  font-weight: 400;
+}
+
+.call-to-action-phone {
+  margin: 30px 0px;
+}
+
+.call-to-action-phone span {
+  display: inline-block;
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  color: #e73c3e;
+  text-align: center;
+  font-size: 35px;
+}
+
+.call-to-action-phone a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 6px;
+  padding-left: 45px;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.our-company-value-text h2 {
+  font-size: 35px;
+}
+
+.our-company-value-text .icon {
+  font-size: 50px;
+  color: #e73c3e;
+  margin-right: 27px;
+}
+
+.our-company-value-text .value-text h3 {
+  margin-top: 10px;
+}
+
+.our-company-value-text .value-text p {
+  color: #606060;
+  line-height: 31px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.our-company-img img {
+  text-align: right;
+  margin: 180px 0px;
+}
+
+.company-service-text h2 {
+  font-weight: 600 !important;
+  margin-bottom: 15px !important;
+}
+
+.company-service-text h6 {
+  font-size: 16px !important;
+  font-weight: 400;
+}
+
+.list li {
+  color: #111 !important;
+}
+
+.testmonial-content p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.testmonial-content h3 {
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.testmonial-content span {
+  color: #606060;
+}
+
+.team_member .member-image {
+  position: relative;
+}
+
+.team_member .social_icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.team_member .social_icon ul {
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+
+.team_member .social_icon li {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  transform: translateY(50px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.team_member .social_icon a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 47px;
+  background-color: #f4f5fe;
+  color: #111;
+  border-radius: 50%;
+  text-align: center;
+  translate: .5s;
+}
+
+.team_member .social_icon a:hover {
+  color: #f4f5f4;
+  background-color: #E83B3E;
+}
+
+.member-image:hover .social_icon ul li {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.member-image .social_icon ul li:nth-child(1) {
+  transition-delay: 0.2s;
+}
+
+.member-image .social_icon ul li:nth-child(2) {
+  transition-delay: 0.3s;
+}
+
+.member-image .social_icon ul li:nth-child(3) {
+  transition-delay: 0.4s;
+}
+
+.member-image .social_icon ul li:nth-child(4) {
+  transition-delay: 0.5s;
+}
+
+.member_bio {
+  margin-top: 25px;
+}
+
+.member_bio h3 {
+  font-size: 20px;
+  color: #e73c3e;
+  margin-bottom: 8px;
+}
+
+.member_bio span {
+  font-size: 16px;
+  color: #606060;
+}
+
+.blog-item:hover .blog-text .blog-btn {
+  letter-spacing: 2px;
+  color: #E83B3E;
+}
+
+.blog-text h3 a:hover {
+  letter-spacing: 0px;
+  color: #E83B3E;
+}
+
+.blog-img img {
+  max-width: 100%;
+}
+
+.blog-text p {
+  color: #E83B3E;
+}
+
+.blog-text h3 {
+  font-size: 25px;
+}
+
+.blog-text h3 a {
+  color: #111;
+  text-decoration: none;
+  list-style: 1.5;
+  transition: 0.4s;
+}
+
+.blog-text .blog-btn {
+  font-size: 19px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 700;
+  transition: 0.4s;
 }
